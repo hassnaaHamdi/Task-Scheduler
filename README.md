@@ -30,3 +30,8 @@ The Async function is a new feature in modern C++, it saves you the hassle of cr
 Those are used to communicate objects between threads.<br/>
 The promise stores a state that the future can monitos to check if there is a signal from the promise or not.<br/>
 They act a signal sender and receiver.<br/>
+
+## How to build:
+To build the project, create a build folder in the parent directory,<br/>
+move to the build folder, and try the command : (cmake ..), and then (make).<br/>
+For the test project, apply the same steps inside the test folder.
